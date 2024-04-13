@@ -25,7 +25,7 @@ with gr.Blocks(title="Cartão de Crédito - Classificação") as demo:
         with gr.Column():
             empregado = Calendar(type="datetime", label="Data que iniciou em seu emprego", info="Selecione o inicio de sua contratação.")
             celular = gr.Dropdown(["Sim", "Não"], label="Possui Telefone Celular?")
-            telefone_comercia = gr.Dropdown(["Sim", "Não"], label="Possui Telefone Comercial?")
+            telefone_comercia = gr.Dropdown(["Sim", "Não"], label="Possui Telefone Comercial?")#
             telefone = gr.Dropdown(["Sim", "Não"], label="Possui Telefone?")
             email = gr.Dropdown(["Sim", "Não"], label="Possui Email?")
             emprego = gr.Dropdown(["Trabalhador", "Equipe Central", "Equipe de Vendas", "Gerentes", "Motorista", "Equipe Técnica", "Contador", "Medicina", "Cozinha", "Segurança", "Limpeza", "Serviço Privado", "Trabalhadores de baixa qualificação", "Secretário", "Garçons/Barmen", "Equipe de RH", "Equipe de TI", "Agentes imobiliários"], label="Tipo do seu Emprego?")
